@@ -91,6 +91,27 @@
 
 // array[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 0; i =< 100; i++)
+// RESOLUÇÃO
 
-console.log(i)
+// for (let i = 0; i <= 100; i++) {
+// console.log(i);
+// }
+
+// let array = [1, 2, 3, 4, 8, 9, 15, 22, "aaaaa"]
+// for (let i = 0; i < array.length; i++) {
+// console.log(array[i])
+// }
+
+// let arrayTwo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// for (let i = 0; i < arrayTwo.length; i++) {
+//     if (arrayTwo[i] % 2 !== 0) {
+//         console.log(arrayTwo[i]);
+//     }
+// }
+
+
+
+
+
+
+
