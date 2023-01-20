@@ -109,6 +109,17 @@
 //     }
 // }
 
+// let weatherToday = ""
+
+// if (weatherToday === "chuvoso") {
+//     console.log ("Não esqueça o guarda chuva");
+// } else if (weatherToday === "ensolarado") {
+//     console.log ("Beba bastante água");
+// } else if (weatherToday === "") {
+//     console.log ("Pesquise a previsão do tempo");
+// }
+
+
 
 
 
