@@ -147,7 +147,56 @@
 
 // imc("Karen ", 1.65, 58);
 
+// Aula - 31/01/2023
+
+// function imc(nome, altura, peso) {
+//     if (typeof altura !== "number" || typeof peso !== "number")
+//       return console.log("Insira um valor válido");
+// // quando condição if só tem um argumento, não é necessário abrir chave{}
+//     let imc = peso / (altura * altura);
+    
+//     if (imc <= 18.5){
+//         console.log(nome + " seu IMC é " + imc + " = Anormal.")
+//     } else if (imc >= 18.6 && imc <= 24.7){
+//         console.log(nome + " seu IMC é " + imc + " = Normal.")
+//     } else {
+//         console.log(nome + " seu IMC é " + imc + " = Sobrepeso.")
+//     }
+// }
 
 
+// imc("Karen", 1.74, "d")
 
 
+let pessoas = {
+    0: {
+        nome: "Ka",
+        altura: 1.65,
+        peso: 58
+    },
+    1: {
+        nome: "Mat",
+        altura: 1.75,
+        peso: 105
+    }
+}
+
+function imc(obj){
+    for(const i in obj){
+      if(typeof obj[i].altura !== "number" || typeof obj[i].peso !== "number"){
+        console.log("A pessoa " + obj[i].nome + " está com informações inválidas.");
+        continue;
+      }
+      let imc = obj[i].peso / (obj[i].altura * obj[i].altura)
+        if(imc <= 18.5){
+            console.log(obj[i].nome + " seu IMC é " + imc + " = anormal.");
+        } else if(imc >= 18.6 && imc <= 24.5){
+            console.log(obj[i].nome + " seu IMC é " + imc + " = normal.");
+        } else {
+            console.log(obj[i].nome + " seu IMC é " + imc + " = sobrepeso.")
+        }
+    
+    }
+}
+
+imc(pessoas)
