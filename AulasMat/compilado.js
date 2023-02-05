@@ -168,35 +168,106 @@
 // imc("Karen", 1.74, "d")
 
 
-let pessoas = {
-    0: {
-        nome: "Ka",
-        altura: 1.65,
-        peso: 58
-    },
-    1: {
-        nome: "Mat",
-        altura: 1.75,
-        peso: 105
-    }
-}
+// let pessoas = {
+//     0: {
+//         nome: "Ka",
+//         altura: 1.65,
+//         peso: 58
+//     },
+//     1: {
+//         nome: "Mat",
+//         altura: 1.75,
+//         peso: 105
+//     }
+// }
 
-function imc(obj){
-    for(const i in obj){
-      if(typeof obj[i].altura !== "number" || typeof obj[i].peso !== "number"){
-        console.log("A pessoa " + obj[i].nome + " está com informações inválidas.");
-        continue;
-      }
-      let imc = obj[i].peso / (obj[i].altura * obj[i].altura)
-        if(imc <= 18.5){
-            console.log(obj[i].nome + " seu IMC é " + imc + " = anormal.");
-        } else if(imc >= 18.6 && imc <= 24.5){
-            console.log(obj[i].nome + " seu IMC é " + imc + " = normal.");
-        } else {
-            console.log(obj[i].nome + " seu IMC é " + imc + " = sobrepeso.")
-        }
+// function imc(obj){
+//     for(const i in obj){
+//       if(typeof obj[i].altura !== "number" || typeof obj[i].peso !== "number"){
+//         console.log("A pessoa " + obj[i].nome + " está com informações inválidas.");
+//         continue;
+//       }
+//       let imc = obj[i].peso / (obj[i].altura * obj[i].altura)
+//         if(imc <= 18.5){
+//             console.log(obj[i].nome + " seu IMC é " + imc + " = anormal.");
+//         } else if(imc >= 18.6 && imc <= 24.5){
+//             console.log(obj[i].nome + " seu IMC é " + imc + " = normal.");
+//         } else {
+//             console.log(obj[i].nome + " seu IMC é " + imc + " = sobrepeso.");
+//         }
     
-    }
-}
+//     }
+// }
 
-imc(pessoas)
+// imc(pessoas)
+
+
+// Aula - 04/02/2023
+
+// let arr = ["Eu", 0, 2, "Karen", true, false, "844542", 4, 4.5, 2];
+// let num = 0
+// let bool = 0
+// let stri = 0
+
+// for(let i = 0; i < arr.length; i++){
+//     if(typeof arr[i] === "number"){
+//         num += 1
+//     } else if(typeof arr[i] === "string"){
+//         stri += 1
+//     } else {
+//         bool +=1
+//     }
+
+// }
+
+// console.log(num, bool, stri);
+
+
+// let arr = [0, 2, "a", 5, 1.1, true, "M", 5, 9, false];
+
+// let result = {
+//     num: 0,
+//     stri: 0,
+//     bool: 0
+// }
+
+// for(let i = 0; i < arr.length; i++){
+//     if(typeof arr[i] === "number"){
+//         result.num ++;
+//     } else if(typeof arr[i] === "string"){
+//         result.stri ++;
+//     } else {
+//         result.bool ++;
+//     }
+// }
+
+// console.log(result);
+
+
+// let result = {
+//     num: 0,
+//     stri: 0,
+//     bool: 0
+// }
+
+// function contador(array){
+//     for(let i = 0; i < array.length; i++){
+//         if(typeof array[i] === "number"){
+//             result.num ++;
+//         } else if(typeof array[i] === "string"){
+//             result.stri ++;
+//         } else {
+//             result.bool ++;
+//         }
+//     } console.log(result);
+// }
+
+// contador([0, 2, 3, 5, true, "gos", 4, 8, "toso"])
+
+
+
+// Atividades para casa
+
+// 1 - Crie um método que percorra um array de trás para frente utilizando for looping.
+// 2 - Crie um array para cada inicial do nome "MATHEUS", e aplique um método que retorne apenas consoantes.
+// 3 - Crie uma function que calcule quantas consoantes existem no alfabeto.
