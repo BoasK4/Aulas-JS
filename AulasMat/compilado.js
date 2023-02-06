@@ -271,3 +271,67 @@
 // 1 - Crie um método que percorra um array de trás para frente utilizando for looping.
 // 2 - Crie um array para cada inicial do nome "MATHEUS", e aplique um método que retorne apenas consoantes.
 // 3 - Crie uma function que calcule quantas consoantes existem no alfabeto.
+
+// Resolução de exercícios 
+
+// 1
+
+// const mat = [
+//     "M", 
+//     "A", 
+//     "T", 
+//     "H", 
+//     "E", 
+//     "U", 
+//     "S"
+// ];
+
+// for(let i = mat.length - 1; i >= 0; i--){
+//     console.log(mat[i]);
+// }
+
+// 2
+
+let boyfriend = [
+    'M',
+    'A',
+    'T',
+    'H',
+    'E',
+    'U',
+    'S'
+];
+
+for(let i = 0; i < boyfriend.length; i++){
+    if(boyfriend[i] === "A" || boyfriend[i] === "E" || boyfriend[i] === "U"){
+        continue
+    } console.log(boyfriend[i]);
+}
+
+// 3
+
+// const vogais = [
+//     'A',
+//     'E',
+//     'I',
+//     'O',
+//     'U'
+// ];
+
+// let tl = {
+//    consoante: 0,
+//    vogal: 0
+// }
+
+// function alfabeto(array){
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] === 'A','E', 'I' || array[i] === 'O' || array[i] === 'U'){
+//             tl.vogal ++
+//         } else {
+//             tl.consoante ++
+//         } console.log(tl);
+//     }
+// }
+
+// alfabeto('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+// 'W', 'X', 'Y', 'Z')
