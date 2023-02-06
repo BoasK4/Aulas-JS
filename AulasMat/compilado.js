@@ -292,31 +292,23 @@
 
 // 2
 
-let boyfriend = [
-    'M',
-    'A',
-    'T',
-    'H',
-    'E',
-    'U',
-    'S'
-];
+// let boyfriend = [
+//     'M',
+//     'A',
+//     'T',
+//     'H',
+//     'E',
+//     'U',
+//     'S'
+// ];
 
-for(let i = 0; i < boyfriend.length; i++){
-    if(boyfriend[i] === "A" || boyfriend[i] === "E" || boyfriend[i] === "U"){
-        continue
-    } console.log(boyfriend[i]);
-}
+// for(let i = 0; i < boyfriend.length; i++){
+//     if(boyfriend[i] === "A" || boyfriend[i] === "E" || boyfriend[i] === "U"){
+//         continue
+//     } console.log(boyfriend[i]);
+// }
 
 // 3
-
-// const vogais = [
-//     'A',
-//     'E',
-//     'I',
-//     'O',
-//     'U'
-// ];
 
 // let tl = {
 //    consoante: 0,
@@ -325,13 +317,14 @@ for(let i = 0; i < boyfriend.length; i++){
 
 // function alfabeto(array){
 //     for(let i = 0; i < array.length; i++){
-//         if(array[i] === 'A','E', 'I' || array[i] === 'O' || array[i] === 'U'){
+//         if(array[i] === 'A'|| array[i] === 'E'|| array[i] === 'I' || array[i] === 'O' || array[i] === 'U'){
 //             tl.vogal ++
 //         } else {
 //             tl.consoante ++
-//         } console.log(tl);
-//     }
+//         } 
+//     } console.log(tl);
 // }
 
-// alfabeto('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-// 'W', 'X', 'Y', 'Z')
+// alfabeto(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+// 'W', 'X', 'Y', 'Z'])
+
